@@ -1,4 +1,4 @@
-# debug
+# template
 PHP Library ( PHP >= 5.2 ) CLI,CGI
 
 > About
