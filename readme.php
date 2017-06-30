@@ -25,6 +25,8 @@
 
 >> About
 
+	GitHub : https://github.com/poen0121/template
+
 	Template control.
 
 	Load the file output.
