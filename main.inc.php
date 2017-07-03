@@ -145,7 +145,7 @@ if (!class_exists('hpl_template')) {
 		 */
 		public static function view($path = null, $data = array (), $process = false) {
 			if (!hpl_func_arg :: delimit2error() && !hpl_func_arg :: string2error(0) && !hpl_func_arg :: array2error(1) && !hpl_func_arg :: bool2error(2)) {
-				if (strlen($path) > 0) {
+				if (isset ($path { 0 })) {
 					clearstatcache();
 					$path = hpl_path :: norm($path);
 					if (!hpl_path :: is_absolute($path) && is_file($path) && is_readable($path) && preg_match('/^(.)*\.php$/i', $path)) {
