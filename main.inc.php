@@ -1,6 +1,6 @@
 <?php
 if (!class_exists('hpl_template')) {
-	include (str_replace('\\', '/', dirname(__FILE__)) . '/system/path/main.inc.php');
+	include (strtr(dirname(__FILE__), '\\', '/') . '/system/path/main.inc.php');
 	/**
 	 * @about - template control.
 	 */
